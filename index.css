@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    color: black;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color:green;
+  }
+  
+  a.cta {
+    background-color: #28a745;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-align: center;
+   
+    margin-top: 1rem;
+  }
+  
+  
+  /* Navbar Styling */
+  
+    
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+  }
+
+  
+  header .logo {
+    color: green;
+    font-size: 3.5rem;
+    
+  }
+  
+ header ul{
+  list-style:none;
+  display: flex;
+  gap: 1rem;
+ }
+ header ul li{
+  list-style: none;
+ }
+ header ul li a{
+  color: #333;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  transition: 0.3s;
+ }
+  
+  
+  
+  /* Hero Section */
+  .hero {
+    background: url('1img.png') no-repeat center center/cover;
+    height: 60vh;
+    color: white;
+    text-align: center;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text .cta {
+    background-color: green;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .hero-text .cta:hover {
+    background-color: green;
+  }
+  
+  /* Produce Section */
+  .produce-section {
+    background-color: #f9f9f9;
+  }
+  
+  .produce-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .produce-item {
+    background-color: white;
+    padding: 1rem;
+    width: 45%;
+    text-align: center;
+    box-shadow: 0 4px 8px grey;}
+  
+  .produce-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Services Section */
+  .services-section {
+    padding: 2rem;
+    background-color: white;
+  }
+  
+  .services-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .service-item {
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .service-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  /* About Section */
+  .about-section {
+    background-color: #f4f4f4;
+    padding: 2rem;
+  }
+  
+  .about-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-item {
+    background-color: white;
+    padding: 1rem;
+    width: 45%;
+    text-align: center;
+  }
+  
+  .about-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  /* Agricultural Technologies Section */
+  .technologies-section {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    
+  }
+  
+  .tech-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tech-item {
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .tech-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  /* Farming Equipment Section */
+  .equipment-section {
+    padding: 2rem;
+    background-color: #f4f4f4;
+  }
+  
+  .equipment-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .equipment-item {
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .equipment-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  /* Community Involvement Section */
+  .community-section {
+    padding: 2rem;
+    background-color: #f4f4f4;
+  }
+  
+  .community-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .community-item {
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .community-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    text-align: center;
+    color: #4caf50; 
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  input, textarea, select {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4caf50; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-size: 14px;
+  }
